@@ -184,7 +184,7 @@
         
            <!--  <p style="color: grey">ABOUT AS</p> --><hr>
         <div style="text-align: center; width:100%; color: #fff;padding: 5px;">
-            <h2>Grades Calculated</h2>
+            <h2>Test Calculated</h2>
 
         </div>
         <hr> <div style="text-align: center;"><h4>{{__('lang.welcome')}}</h4></div>
