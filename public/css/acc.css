@@ -1,0 +1,306 @@
+      
+        
+		/*.inContainer{
+			position: fixed;
+            top: 0;
+            width: 100%;
+			display: flex;
+			background-color: hsla(0, 0%, 100%, 0.8);
+           padding: 10px 10% 10px 10%;
+            box-shadow:  0 2px 3px hsl(0, 0%, 85%);
+        }*/
+              
+		.inContainer1{
+			margin: 15px 0 50px 0;
+			display: flex;}
+		.class1{
+			border-radius: 4px;
+			box-shadow:  0 2px 3px hsl(0, 0%, 85%);
+			width: 90%;
+			height: 60%;
+			
+			padding-top: 30px;
+			margin-bottom: 20px;
+		    }
+        .class4{
+        
+          margin-top: 0px;
+          width: 100%;
+          background-color: grey;
+        }
+		/*
+		#c1{
+			box-shadow:  0 2px 3px hsl(0, 0%, 85%);
+			margin-bottom: 90px;
+			background-color: white;
+			height: 80%;
+			width: 50%;
+			padding: 20px 28px;
+			box-sizing: border-box;}
+		    #c1 h4{
+			font-size: 25px;}*/
+			/*#vw{
+            font-size: 14px;
+			}*/
+
+		/*#c2{
+			width: 100%;
+			height: 40px;
+			background-color: white;
+			padding-top: 5px;
+			display: flex-inline;
+			box-sizing: border-box;}
+		#c2 h6{ 
+            margin-left: 40px;
+			color: #11CDCF ;
+			font-size: 13px;}
+		#c2 i{
+        
+         margin-right: 3px;
+         font-size: 12px;}*/
+         /*#c22{
+         	margin-top: -20px;
+         }
+        */
+	/*	.some{
+			font-size: 12px; 
+			color: lightgrey}*/
+		.some1{
+			border-radius: 5px;
+			background-color: white;
+			box-shadow:  0 2px 3px hsl(0, 0%, 85%);
+			height: 240px;
+			width: 350px;
+			margin-left: 30px;
+			padding-left: 30px;}
+		.some1 p{
+		     font-size: 15px;
+			color: grey;}
+		#b2{/*less .button1;*/
+			background-color: #4F1AC6;
+			width: 90%;
+			height: 15%;
+			color: white;}
+		#b1{
+			background-color: white;
+			width: 90%;
+			height: 15%;
+			border: 2px solid #E6E2F3;
+			margin-bottom: 15px;}
+/*
+			.class3{
+
+				text-align: center;
+			}
+	
+          
+*/
+		#class2{
+			/*.hr;*/
+            border-radius: 5px 5px 0px 0px;
+			margin-top: 0px;
+			margin-bottom: 25px;
+			margin-left: -30px;
+			height: 5px;
+			width: 350px;
+			background: linear-gradient(to right,#fc637b 0,#fa114c 50%,#f2990f 90%);}
+		#class3{
+			/*.hr;*/
+            border-radius: 5px 5px 0px 0px;
+			margin-top: 0px;
+			margin-bottom: 25px;
+			margin-left: -30px;
+			height: 5px;
+			width: 350px;
+			background: linear-gradient(to right,rgb(27, 231, 250) 0, rgb(32, 250, 235) 50%,rgb(7, 237, 180) 100%);}
+		
+	
+  		.hrc{
+  			margin-top: -8px;
+  			
+  		}
+  		
+  		.w{
+  			display: flex;
+
+  		}
+  		.Container1{
+
+        padding-left: 10%;
+        padding-right: 1%;
+
+  		}
+    /*  ok*/
+  		.two1{
+         box-shadow:"10px 20px 20px black";
+  			display: flex;
+  			flex-wrap: wrap;
+  		}
+  		
+   /*    @media only screen and (min-width: 1600px) {
+
+      .Container1{
+        padding-left: 15%;
+        padding-right: 5%;	}
+      .inContainer{
+  	    padding-left: 15%;
+        padding-right: 18%; }
+      }
+     @media only screen and (min-width: 1768px) {
+
+     .Container1{
+        padding-left: 20%;
+        padding-right: 15%;	}
+     .inContainer{
+  	    padding-left: 20%;
+        padding-right: 20%; }
+      } 
+    @media only screen and (min-width: 2000px) {
+ 
+      .Container1{
+  	    padding-left: 25%;
+        padding-right: 25%;}
+      .inContainer{
+  	    padding-left: 25%;
+        padding-right: 30%; }
+      } 
+    @media only screen and (min-width: 3000px) {
+	
+     .Container1{
+        padding-left: 35%;
+        padding-right: 32%;}
+    .inContainer{
+  	    padding-left: 35%;
+        padding-right: 35%; }
+     }
+     @media only screen and (min-width: 4000px) {
+    .inContainer{
+        padding-right: 45%;}
+  .Container1{
+        padding-right: 38%;}
+   }@media only screen and (max-width: 1400px) {
+ 
+  #c1 p{font-size: 1vw;
+  }
+  #c1 h4{
+  	font-size: 2vw;
+  }
+  .inContainer1{
+  	flex-wrap: wrap;
+  }
+   .inContainer2{
+  		margin-left: 30px;
+  }
+  .class1{
+  	margin-left: 30px;
+  }
+
+}*/@media only screen and (max-width: 1200px){
+	
+	.inContainer1{
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 600px) {
+ /*#c2 h6{font-size: 3vw;
+  }
+  #c1 p{font-size: 1vw;
+  }
+  #c1 h4{
+  	font-size: 2vw;
+  }*/
+  
+  /* .inContainer2{
+  		margin-left: -20px;
+  }*/
+  .class1{
+  	margin-left: 30px;
+  }
+ }
+
+
+/*del up*/
+.class31{   
+  padding-right: 25px;
+  margin-bottom: 20px;}
+.ch6{
+  margin-left: 12px;
+  margin-top: 2px;
+}
+.header {
+  overflow: hidden;
+  background-color: hsla(0, 0%, 0%, 0.3);
+  padding: 10px 100px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+main {
+  margin: 0;
+  padding: 10px;
+  background-color: lightgray;
+
+}
+
+/*main > h1, p, .browser {
+  margin: 10px;
+  padding: 5px;
+}*/
+
+.browser {
+  box-shadow:"10px 20px 20px black";
+  background: white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+}
+.browser hr{
+  width: 60%;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: -15px;
+ 
+  background-color: grey;
+ }
+
+.browser > h2, p,h4 {
+  margin: 4px;
+  font-size: 90%;
+}

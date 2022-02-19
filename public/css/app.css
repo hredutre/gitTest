@@ -1,0 +1,139 @@
+body{
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+     
+}
+.lang{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 3%;
+
+}
+#sign_log{
+  display: flex;
+  justify-content: center;
+    
+}
+#sign_log button{
+  font-size: 2.5vh;
+  background-color: #fff;
+  color: black;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.Welcome{ 
+  position: absolute;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 3%;
+  margin-left: 50%;
+  width: 50%;
+  height: 100%;
+  background-color: hsla(0, 0%, 0%, 0.3);
+color: #fff;  
+}
+hr{
+  background-color: #fff;
+  height: 1px;
+}
+@media only screen and (max-width: 1030px) {
+  .Welcome{
+    width: 100%;
+    margin-left: 0;
+  }
+  .bg1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  .blank{
+    flex-wrap: wrap;
+  }
+}
+.about_us{
+  width: 100%;
+  margin-top: 5%;
+  border-radius: 10px;
+  display: flex;
+
+}
+.typewriter h6 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+.bg1 {
+  margin-top: 160px;
+  margin-left: 400px;
+  display: block;
+  background-color: hsla(0, 0%, 70%, 0.5);
+  border: 10px solid #f6f6f2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;width: 50%;
+  padding: 20px;
+  text-align: center;
+} 
+.ov {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;left: 0;
+  right: 0;bottom: 0;
+  background-color: RGBA(1,0,0,0.85);
+  padding-top: 10%;
+  padding-left: 20%;
+}
+.ov1{display: none;
+}
+.ov2{display: none;
+}
+.ov input{ 
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.ov select{ 
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.ov p{
+  /*font-size: 10vw;*/
+  border:solid 0px white;
+  width: 100px;
+  margin-right: 50px;
+}
+.blank{
+  display: flex;
+}
+.blank input{
+  width: 50%; 
+}
+#togglePassword {
+  margin-top: 5px;
+  margin-left: -25px;
+  cursor: pointer;
+}
+.sign_log_buttons{
+  display: inline-flex;
+  justify-content: center;
+}
+.sign_log_buttons button{
+  background-color:black;
+  color: white; 
+  margin-left: 5px;
+}
